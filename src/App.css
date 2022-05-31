@@ -1,0 +1,50 @@
+.App {
+  text-align: center;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.tick line {
+  stroke: #c0c0bb;
+}
+
+.tick text {
+  fill: #6a2402;
+  font-weight: 700;
+}
+
+.mark {
+  fill: #137b80;
+}
+
+.axis-label {
+  font-size: 2.5em;
+  fill: #2c0f01;
+}
+
+ul li {
+  list-style: none;
+}
+
+.marks circle {
+  fill: #137B80;
+}
+.marks path {
+  stroke: #137B80;
+  stroke-width: 4;
+  stroke-linejoin: round;
+  stroke-linecap: round;
+}
